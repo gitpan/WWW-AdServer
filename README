@@ -1,0 +1,28 @@
+WWW/AdServer version 0.01
+=========================
+
+
+
+You will also need to download and install WWW::AdServer::Admin before you can serve any adverts!
+
+INSTALLATION
+
+To install this module type the following:
+
+   mkdir /path/to/config/directory
+   chmod 0777 /path/to/config/directory
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+   perldoc WWW::AdServer # to find out how to run it!
+
+DEPENDENCIES
+
+This module requires either an Apache mod_perl installation or Apache::Emulator (if you wish to run this AdServer in a CGI environment).
+
+COPYRIGHT AND LICENCE
+
+Copyright (c) 2001, Nigel Wetters. All Rights Reserved. This module is free software. 
+It may be used, redistributed and/or modified under the same terms as Perl itself. 

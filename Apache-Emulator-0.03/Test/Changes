@@ -1,0 +1,6 @@
+Revision history for Perl extension Apache::Emulator::Test.
+
+0.01  Mon Oct 29 20:47:16 2001
+	- original version; created by h2xs 1.20 with options
+		-X Apache::Emulator::Test
+

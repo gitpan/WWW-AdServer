@@ -1,0 +1,12 @@
+Revision history for Perl extension Apache::Emulator.
+
+0.03  Tue Nov 20 2001
+	- added $r->header_in() [not yet documented] - NWETTERS
+
+0.02  ??? Nov ?? 2001
+	- test.pl now doesn't run for Apache::Emulator::Test - NWETTERS
+
+0.01  Mon Oct 29 20:45:53 2001
+	- original version; created by NWETTERS
+	- does what it says on the tin!
+
