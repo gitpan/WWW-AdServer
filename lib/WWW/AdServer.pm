@@ -1,5 +1,5 @@
 package WWW::AdServer;
-$VERSION = 0.01;
+$VERSION = 0.02;
 use strict;
 use Carp;
 use vars qw ($VERSION);

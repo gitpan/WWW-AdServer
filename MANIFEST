@@ -1,6 +1,15 @@
-AdServer.pm
 Changes
-Makefile.PL
 MANIFEST
+Makefile.PL
 README
+lib/WWW/AdServer.pm
+lib/WWW/AdServer/Advert.pm
+lib/WWW/AdServer/Displayer.pm
+lib/WWW/AdServer/Displayer/IFrame.pm
+lib/WWW/AdServer/Displayer/JScript.pm
+lib/WWW/AdServer/Displayer/NonSSI.pm
+lib/WWW/AdServer/Logger.pm
+lib/WWW/AdServer/Logger/DevNull.pm
+lib/WWW/AdServer/Logger/Text.pm
 test.pl
+META.yml                                Module meta-data (added by MakeMaker)

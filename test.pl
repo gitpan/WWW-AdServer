@@ -1,16 +1,25 @@
-# Before `make install' is performed this script should be runnable with
-# `make test'. After `make install' it should work as `perl test.pl'
+use Test::More tests => 18;
 
-#########################
+BEGIN
+{
+    use_ok( 'WWW::AdServer' );
+    use_ok( 'WWW::AdServer::Advert' );
+    use_ok( 'WWW::AdServer::Displayer' );
+    use_ok( 'WWW::AdServer::Displayer::IFrame' );
+    use_ok( 'WWW::AdServer::Displayer::JScript' );
+    use_ok( 'WWW::AdServer::Displayer::NonSSI' );
+    use_ok( 'WWW::AdServer::Logger' );
+    use_ok( 'WWW::AdServer::Logger::DevNull' );
+    use_ok( 'WWW::AdServer::Logger::Text' );
+}
 
-# change 'tests => 1' to 'tests => last_test_to_print';
-
-use Test;
-BEGIN { plan tests => 1 };
-ok(1); # If we made it this far, we're ok.
-
-#########################
-
-# Insert your test code below, the Test module is use()ed here so read
-# its man page ( perldoc Test ) for help writing this test script.
+require_ok( 'WWW::AdServer' );
+require_ok( 'WWW::AdServer::Advert' );
+require_ok( 'WWW::AdServer::Displayer' );
+require_ok( 'WWW::AdServer::Displayer::IFrame' );
+require_ok( 'WWW::AdServer::Displayer::JScript' );
+require_ok( 'WWW::AdServer::Displayer::NonSSI' );
+require_ok( 'WWW::AdServer::Logger' );
+require_ok( 'WWW::AdServer::Logger::DevNull' );
+require_ok( 'WWW::AdServer::Logger::Text' );
 
