@@ -1,4 +1,7 @@
 package WWW::AdServer::Database::YAML;
+{
+  $WWW::AdServer::Database::YAML::VERSION = '1.01';
+}
 use Moo::Role;
 use 5.010;
 
@@ -71,3 +74,28 @@ sub get_ads {
 
 
 1;
+
+__END__
+
+=pod
+
+=head1 NAME
+
+WWW::AdServer::Database::YAML
+
+=head1 VERSION
+
+version 1.01
+
+=head1 AUTHOR
+
+Gabor Szabo <szabgab@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Gabor Szabo.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut

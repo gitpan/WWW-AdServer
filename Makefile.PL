@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-
+use 5.010;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -19,9 +19,23 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "perl",
   "NAME" => "WWW::AdServer",
-  "PREREQ_PM" => {},
-  "TEST_REQUIRES" => {},
-  "VERSION" => "1.00",
+  "PREREQ_PM" => {
+    "Data::Dumper" => 0,
+    "List::MoreUtils" => 0,
+    "List::Util" => 0,
+    "Moo" => 0,
+    "Moo::Role" => 0,
+    "Time::Local" => 0,
+    "YAML" => 0
+  },
+  "TEST_REQUIRES" => {
+    "Geo::IP" => 0,
+    "Test::Deep" => 0,
+    "Test::More" => 0,
+    "strict" => 0,
+    "warnings" => 0
+  },
+  "VERSION" => "1.01",
   "test" => {
     "TESTS" => "t/*.t"
   }

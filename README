@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution WWW-AdServer,
-version 1.00:
+version 1.01:
 
   A simple AdServer that can be stand alone PSGI or be part of a larger system
 
